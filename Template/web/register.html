@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div class="header">
+  <nav class="navbar navbar-expand-lg navbar-light  shadow-sm sticky-top" style="background: #EAE9E8">
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand mb-0 h1" href="#">Brand Name</a>
+      <div class="collapse navbar-collapse ml-5">
+        <ul class="navbar-nav mr-auto mt-2">
+          <li class="nav-item dropdown text-category ">
+            <a class="link nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+
+          </li>
+          <li class="nav-item dropdown  text-category">
+            <a class="link nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+
+          </li>
+          <li class="nav-item dropdown  text-category">
+            <a class="link nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+
+          </li>
+          <li class="nav-item dropdown  text-category">
+            <a class="link nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+
+          </li>
+          <li class="nav-item dropdown text-category">
+            <a class="link nav-link" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+
+          </li>
+          <li class=" nav-item dropdown text-category">
+            <a class="nav-link show-modal" href="#" role="button" data-toggle="modal" data-target="#myModal" aria-expanded="false">
+              <i class="bi bi-grid ml-2" style="font-size: 17px"></i>
+            </a>
+            <div class="modal fade mt-5" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content modal-cate shadow clearfix">
+                  <button type="button" class="close text-right mr-2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                  <div class="modal-body w-100 h-100">
+                    <div class="container">
+                      <div class="row row-cols-4">
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingTwo">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                  <div class="panel-body">
+                                    <div class="row">
+                                      <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                    </div>
+                                    <div class="row">
+                                      <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div  class="col-3">
+                          <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="heading3">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                                <div class="panel-body">
+                                  <div class="panel-body">
+                                    <div class="row">
+                                      <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                    </div>
+                                    <div class="row">
+                                      <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion4" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne4">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link" data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne4">
+                                <div class="panel-body">
+                                  <div class="panel-body">
+                                    <div class="row">
+                                      <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                    </div>
+                                    <div class="row">
+                                      <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row row-cols-4 mt-5">
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne5">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne5">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion6" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne6">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link navbar-expand-sm" data-toggle="collapse" data-parent="#accordion6" href="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne6">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion7" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne7">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link navbar-expand-sm" data-toggle="collapse" data-parent="#accordion7" href="#collapseOne7" aria-expanded="true" aria-controls="collapseOne7">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne7" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne7">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion8" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne8">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link navbar-expand-sm" data-toggle="collapse" data-parent="#accordion8" href="#collapseOne8" aria-expanded="true" aria-controls="collapseOne8">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne8" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne8">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row row-cols-4 mt-5">
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion9" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne9">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link navbar-expand-sm" data-toggle="collapse" data-parent="#accordion9" href="#collapseOne9" aria-expanded="true" aria-controls="collapseOne9">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne9" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne9">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion10" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne10">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link navbar-expand-sm" data-toggle="collapse" data-parent="#accordion10" href="#collapseOne10" aria-expanded="true" aria-controls="collapseOne10">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne10" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne10">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion11" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne11">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link navbar-expand-sm" data-toggle="collapse" data-parent="#accordion11" href="#collapseOne11" aria-expanded="true" aria-controls="collapseOne11">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne11" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne11">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3">
+                          <div class="panel-group" id="accordion12" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingOne12">
+                                <div class="row">
+                                  <a href="#" class="link nav-link">Danh Mục 1</a>
+                                  <div role="button" class="nav-link navbar-expand-sm" data-toggle="collapse" data-parent="#accordion12" href="#collapseOne12" aria-expanded="true" aria-controls="collapseOne12">
+                                    <i class="bi bi-caret-down-fill"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapseOne12" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne12">
+                                <div class="panel-body">
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                  <div class="row">
+                                    <a href="#" class="dropdown-item text-par-heading mr-1">Danh Mục Con 1</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" >
+          <div class="p-1 rounded rounded-pill shadow-lg mw-100" style="background: snow">
+            <div class="input-group text-white">
+              <input type="search" placeholder="Nhập vào đây" aria-describedby="button-addon1" class="form-control border-0 rounded rounded-pill bg-light">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn btn-link"><i class="bi bi-search" style="color: black"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item dropdown text-category mt-1">
+            <a class="nav-link show-modal" href="#" role="button" data-toggle="modal" data-target="#myLogin" aria-expanded="false">
+              <span class="user-action"><img src="./img/user.png" class="avatar" alt="Avatar"></span>
+
+            </a>
+            <div class="modal fade mt-5" id="myLogin" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content modal-login shadow clearfix">
+                  <button type="button" class="close text-right mr-2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                  <div class="modal-body w-100 h-100">
+                    <div class="container ml-4">
+                      <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="card-body p-4 p-lg-5 text-black">
+                          <div class="d-flex align-items-center mb-3 pb-1">
+                            <span class="h1 fw-bold mb-0">Logo</span>
+                          </div>
+
+                          <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Đăng nhập</h5>
+
+                          <div class="form-outline mb-4">
+                            <input type="email" id="form2Example17" placeholder="Email" class="form-control form-control-lg" />
+                          </div>
+
+                          <div class="form-outline mb-4">
+                            <input type="password" id="form2Example27" placeholder="Password" class="form-control form-control-lg" />
+                          </div>
+
+                          <div class="pt-1 mb-4">
+                            <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
+                          </div>
+                          <div class="text-center">
+                            <p>Not a member? <a href="#!">Register</a></p>
+                            <p>or sign up with:</p>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="bi bi-facebook h3"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="bi bi-google h3"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="bi bi-instagram h3"></i>
+                            </button>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<div class="content">
+  <div class="container text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="
+        background: bisque;
+        height: 300px;
+        "></div>
+    <!-- Background image -->
+
+    <div class="card mx-4 mx-md-5 shadow" style="
+        margin-top: -170px;
+        background: hsla(0, 0%, 100%, 0.8);
+        backdrop-filter: blur(30px);
+        ">
+      <div class="card-body py-5 px-md-5">
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold mb-5">Sign up now</h2>
+            <form>
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input type="text" id="form3Example1" placeholder="Name" class="form-control" />
+
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input type="text" id="form3Example2" placeholder="Name Writer" class="form-control" />
+
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" placeholder="Email"class="form-control" />
+
+              </div>
+
+              <div class="form-outline mb-4">
+                <div class="row row-cols-2">
+                    <div class="col">
+                      <select class="form-control ">
+                        <option selected>Role...</option>
+                        <option>Guest</option>
+                        <option>Phóng Viên</option>
+                      </select>
+                    </div>
+
+                  <div class="col">
+                   <input type="date" placeholder="Birthday" class="form-control">
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-outline mb-4">
+                <input type="text" id="form3Example5" placeholder="UserName" class="form-control" />
+
+              </div>
+
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form3Example4" placeholder="Password" class="form-control" />
+
+              </div>
+
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">
+                Sign up
+              </button>
+
+              <!-- Register buttons -->
+              <div class="text-center">
+                <p>or sign up with:</p>
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="bi bi-facebook h3"></i>
+                </button>
+
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="bi bi-google h3"></i>
+                </button>
+
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="bi bi-github h3"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer mt-5">
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col-7">
+        <a class="navbar-brand mb-0 h1" href="#">Brand Name</a>
+        <ul>
+          <li>Tạp trí điện tử trực tuyến</li>
+          <li>Cơ quan chủ quản: Hội xuất bản Việt Nam</li>
+          <li>Tổng biên tập: Lý Hải</li>
+          <li><i class="bi bi-r-circle"></i> Toàn bộ bản quyền thuộc UTEnews</li>
+        </ul>
+      </div>
+      <div class="col-5">
+
+        <ul class="mt-1 mb-0">
+          <span class="mb-0">Đăng ký để nhận tin mới nhất</span>
+          <li>
+            <form class="form-inline mt-2">
+              <div class="form-group mx-sm-3 mb-0">
+                <label for="inputEmail" class="sr-only">Email</label>
+                <input type="email" class="form-control-sm" id="inputEmail" placeholder="Email">
+              </div>
+              <button type="submit" class="btn btn-sm btn-primary mb-0">Đăng ký</button>
+            </form>
+          </li>
+          <li>Tòa soạn: Số 1 Võ Văn Ngân, Linh Chiểu, Thủ Đức</li>
+          <li>Hotline: 0999832122</li>
+          <li>Email liên hệ: utenews@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // optional
+  $('#blogCarousel').carousel({
+    interval: 5000
+  });
+</script>
+<script>
+  // optional
+  $('#blogCate').carousel({
+    interval: 5000
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
